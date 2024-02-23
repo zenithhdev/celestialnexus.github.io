@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href="./galaxy.ico" type="image/x-icon">
+    <title>Celestial Nexus Early Access</title>
+    <style>
+        body {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            height: 100vh;
+            margin: 0;
+            background-image: url('FD.jpg'); /* Dosyanın yoluyla uzay temasının arkaplan resmi */
+            background-size: cover;
+            background-position: center;
+            font-family: Arial, sans-serif;
+        }
+
+        #downloadBtn {
+            background-color: #4CAF50;
+            color: white;
+            padding: 15px 30px;
+            font-size: 16px;
+            border: none;
+            cursor: pointer;
+        }
+    </style>
+</head>
+<body>
+
+    <button id="downloadBtn">Download</button>
+
+    <script>
+        document.getElementById('downloadBtn').addEventListener('click', function() {
+            // İndirme linki
+            var indirmeLinki = 'https://s2.dosya.tc/server28/i4y2xi/CelestialNexus.rar.html'; // İndirme linkini buraya ekleyin
+
+            // İndirme linkini yeni sekmede açma
+            window.open(indirmeLinki, '_blank');
+        });
+    </script>
+
+</body>
+</html>
+<style>
+  p {
+    background-image: url('FD.jpg');
+  }
+  </style>
